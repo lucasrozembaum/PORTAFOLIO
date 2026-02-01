@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+     background-image: url('https://cdn.pixabay.com/photo/2015/10/01/21/57/wallpaper-967837_1280.jpg');
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+
+
+.container  {
+   
+   height: 40rem;
+   margin: 1rem;
+   padding: 1rem;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+
+.card {
+    
+    margin: 5rem;
+    
+    border: none;
+    border-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.hobbies {
+   padding: none;
+   margin: none;
+    font-size: solid;
+    color: white;
+    
+    
+}
+
+.imagen-1 {
+
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    gap: 16px;
+   
+
+}
+
+.card-title{
+    margin-top: 5px;
+    height: 2rem;
+    text-align: center;
+    gap: none;
+
+}
+
+.hijo-0 {
+    width: 25rem;
+    padding-top: 16px;
+    bottom: 5rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 2rem;
+}
+
+.hijo-1 {
+    width: 6rem;
+    height: 3rem;
+    padding-top: none;
+    bottom: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
