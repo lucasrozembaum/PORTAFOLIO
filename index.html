@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Portafolio</title>
 </head>
-<body>
+<body class="body">
     <header class="contenedor encabezado">
       <nav class="nav nav-pills nav-fill">
-         <a class="nav-link active Inicio" aria-current="page" href="#">Inicio</a>
-         <a class="nav-link active CV" href="#">CV</a>
-         <a class="nav-link active Trabajo" href="#">Trabajo</a>
-         <a class="nav-link  active UATRE" aria-disabled="true" href="https://www.uatre.org.ar/home">UATRE Oficial</a>
+         <a class="nav-link active Inicio navegador" aria-current="page" href="#">Inicio</a>
+         <a class="nav-link active CV navegador" href="#">CV</a>
+         <a class="nav-link active Trabajo navegador" href="#">Trabajo</a>
+         <a class="nav-link  active UATRE navegador" aria-disabled="true" href="https://www.uatre.org.ar/home">UATRE Oficial</a>
      </nav>
 
     </header>
-    <main class=" container padre">
+
+    <main class=" container row padre">
 
                  <!---card1-->
-       <div class="card " style="width: 50rem;">
+       <div class="card col" style="width: 50rem;">
            <img width="25rem"  src="https://cms-assets.themuse.com/media/lead/19419.jpg" class="card-img-top  hobbies imagen-1" alt="juegos">
            <div class="card-body hijo-0">
              <h5 class="card-title hobbies">Hobbies</h5>
@@ -30,7 +32,7 @@
      </div>
 
                 <!---card2-->
-      <div class="card" style="width: 50rem;">
+      <div class="card col" style="width: 50rem;">
         <img width="25rem" src="https://marketplace.canva.com/sGwNo/MAG2ovsGwNo/1/tl/canva-female-employer-holding-applicant-resume-at-interview-MAG2ovsGwNo.jpg" class="card-img-top hobbies imagen-1" alt="CV">
         <div class="card-body hijo-0">
           <h5 class="card-title hobbies">Curritulom Vitae</h5>
@@ -40,27 +42,26 @@
     </div>
 
         <!---card3-->
-    <div class="card" style="width: 50rem;">
-       <img width="25rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBL5AhUDyCvtgYOB3OtjOkLoPYWLkcLaR2-g&s" class="card-img-top imagen-1" alt="UATRE">
+     <div class="card col" style="width: 50rem;">
+       <img width="25rem" src="https://uatre.net/assets/83015f89-7cfe-47f2-a578-3173b154d360" class="card-img-top imagen-1" alt="UATRE">
        <div class="card-body hijo-0">
          <h5 class="card-title hobbies">Trabajo</h5>
          <p class="card-text hobbies">Mi trabajo consiste en controlarque se cumpla con los derechos de trabajadores Rurales, como las 8 horas de trabajo, ropa de trabajo, Etc.-</p>
          <a href="https://www.facebook.com/UATREDELEGACIONCba" class="btn btn-primary hobbies hijo-1">Ver Mas</a>
        </div>
-    </div>
-
-    </main>
-
-    <footer>
-        <ul class="lista">
-            <li>Facebook </li>
-            <li>Linkedin</li>
-            <li>Instegram</li>
-            <li>theard</li>
-            <li>X</li>
-
+     </div>
+   </main>
+<br>
+  <footer class="pie-1">
+      <div class="lista">
+        <ul class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <li class="col fab fa-facebook li1 ">Facebook</li>
+          <li class="col fab fa-instagram li2">Instegram</li>
+          <li class="col fab fa-threads li3">Threades</li>
+          <li class="col fab fa-x-twitter li4"></li>
         </ul>
-    </footer>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
