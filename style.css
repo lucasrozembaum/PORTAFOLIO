@@ -118,22 +118,4 @@ color: white;
 
    }
 
-   .li1:hover {
-     transition: transform ease;
-     transform: scale(1.2);
-
-   }
-   .li2:hover{
-     transition: transform ease;
-     transform: scale(1.2);
-   }
-   .li3:hover{
-     transition: transform ease;
-     transform: scale(1.2);
-   }
-  .li4:hover{
-     transition: transform ease;
-     transform: scale(1.2);
-   }
-
 
