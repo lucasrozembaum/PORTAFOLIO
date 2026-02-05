@@ -1,11 +1,29 @@
 * {
     padding: 0;
     margin: 0;
-    background-image: url('https://cdn.pixabay.com/photo/2015/10/01/21/57/wallpaper-967837_1280.jpg');
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;  
-    background-attachment: fixed;
+}
+.contenedor {
+    background-color: rgb(196, 161, 161);
+    margin: none;
+    padding: none;
+    gap: none;
+}
+.boton {
+    width: 4rem;
+    height: 2rem;
+    background-color: rgb(39, 39, 153);
+    color: white;
+    border-radius: 20%;
+    border-bottom: none;
+}
+.boton:hover{
+    background-color: rgb(88, 88, 226);
+    color: white;
+    border-radius: 25%;
+}
+
+.salida{
+    display: flex;
 }
 
 .navegador:hover{
@@ -17,17 +35,64 @@ transform: scale(1.2);
     color: white;
 }
 
+body {
+    background-color: rgb(231, 180, 212);
+}
+.nombre {
+    color: white;
+    text-align: center;
+}
+.descripscion{
+    background-color: rgb(73, 90, 86);
+    color: white;
+    text-align: justify;
+    
+}
+
+
+
+.lista1 {
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.lista2 {
+    background-color: rgb(230, 159, 220);
+    color: white;
+    list-style: none;
+   text-align: center;
+   
+}
+
+
+.titulo{
+    margin: 15px;
+    color: white;
+    text-align: center;
+}
+.seccion{
+    justify-items: center;
+    justify-content: center;
+}
+
+
 
 .container  {
    height: 35rem;
-   margin: 1rem;
-   padding: 1rem;
    border: none;
    display: flex;
    align-items: center;
    justify-content: center;
    
+}
 
+.card{
+background-color: rgb(236, 199, 221);
+display: flex;
+display: grid;
+
+gap: 16px;
 }
 
 .card:hover {
@@ -35,6 +100,7 @@ transform: scale(1.2);
     border: none;
     border-color: none;
     border-color: none;
+    background-color: rgb(131, 108, 124);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,21 +109,19 @@ transform: scale(1.2);
     border: none;
 }
 .card-body {
-    margin: none;
+   width: 33%;
+    margin: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: none;
-
+    gap: 16px;
     
 }
 .hobbies {
-    width: 18rem;
+   width: 18rem;
    padding: none;
    margin: 4px;
    font-size: solid;
-color: white;
+   color: white;
 }
 
 
@@ -77,6 +141,7 @@ color: white;
 }
 
 .card-title{
+
     margin: none;
     margin-top: 5px;
     height: 2rem;
@@ -92,8 +157,7 @@ color: white;
     text-align: justify;
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    gap: 2rem;
+    
 }
 
 .hijo-1 {
@@ -109,6 +173,10 @@ color: white;
     gap: 1rem;
 }
 
+.facebook{
+    display: flex;
+    display: grid;
+}
 
 .pie-1 {
     width: 100%;
